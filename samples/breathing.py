@@ -3,7 +3,7 @@
 
 from pyroomba import *
 from time import sleep
-
+from _testimportmultiple import termios 
 roomba = RoombaClassic('/dev/ttyUSB0')
 
 roomba.start()
